@@ -1,0 +1,13 @@
+
+version: "3.5"
+
+
+services:
+  toolchain-server:
+    image: ghcr.io/adam-stamand/toolchain-server:latest
+    container_name: toolchain-server
+    privileged: true
+    ports:
+      - "2222:22"
+    volumes:
+      - .:/home/docker

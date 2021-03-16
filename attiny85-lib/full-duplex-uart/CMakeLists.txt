@@ -1,0 +1,3 @@
+project(full-duplex-uart)
+
+
